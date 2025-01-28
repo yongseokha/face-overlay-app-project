@@ -161,7 +161,7 @@ def _apply_overlays(self, frame: np.ndarray, positions: Dict[str, Tuple[int, int
 
 주요 기능:
 
-- 오버레이 이미지 로드 및 캐싱
+- 오버레이 이미지 로드
 - 특징별 표시 여부 관리
 - 이미지 변환 (회전, 크기 조정)
 - 알파 블렌딩을 통한 오버레이 적용
@@ -594,7 +594,6 @@ def get_feature_scale(self, feature: str, base_scale: float) -> float:
 - 이미지 처리
   - LANCZOS4 보간법 사용
   - 알파 블렌딩 최적화
-  - 캐싱 활용
 
 ## 5. 설정 및 상수
 
